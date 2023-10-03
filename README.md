@@ -75,7 +75,7 @@ ssh_config = {
 }
 
 # Ensure you have the API endpoint
-api_url = "http://localhost:8000/api_endpoint"  # Replace "api_endpoint" with the actual API endpoint
+api_url = "http://localhost:8000/predict
 
 # Example API Parameters
 params = {
@@ -98,7 +98,7 @@ with SSHTunnelForwarder(**ssh_config) as tunnel:
         print("Failed:", response.status_code, response.text)
 ```
 
-In this example, `paramiko` is used as the SSH client by `sshtunnel`. Ensure to replace `'password'` and other placeholder values with actual credentials and URLs. Also, ensure that the SSH server is configured to allow port forwarding.
+In this example, `paramiko` is used as the SSH client by `sshtunnel`. Ensure to replace `'password'` and other placeholder values with actual credentials. Also, ensure that the SSH server is configured to allow port forwarding.
 
 To run the above Python code, you need to install the `sshtunnel` and `requests` libraries. If not installed, you can add them using pip:
 
