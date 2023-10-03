@@ -88,7 +88,7 @@ ssh_config = {
 }
 
 # Ensure you have the API endpoint
-api_url = "http://localhost:8000/predict
+api_url = "http://localhost:8000/predict"
 
 # Example API Parameters
 params = {
