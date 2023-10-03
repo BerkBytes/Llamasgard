@@ -50,7 +50,7 @@ pip install requests
 
 ## <a name="api-tunneling"></a>3. API Tunneling and Connection
 
-### SSH Tunneling
+### Connecting via Terminal
 
 SSH (Secure Shell) tunneling is a method of transporting arbitrary networking data over an encrypted SSH connection. It can be used to add encryption to legacy applications, to provide secure remote access to an intranet resource or to forward otherwise insecure TCP traffic through encrypted channels. 
 
