@@ -134,7 +134,7 @@ from Llamasgard import CodeLlama
 
 user_prompt = "Write a Python function to calculate factorial."
 llm=CodeLlama()
-response = llm(user=user_prompt)
+response = llm(prompt=user_prompt)
 print(response)
 ```
 
@@ -142,7 +142,7 @@ print(response)
 
 ## <a name="api-parameters"></a>5. API Parameters
 
-- **user**: The user's input prompt.
+- **prompt**: The user's input prompt.
   
 - **system** (default="Your name is Code Llama, a state-of-the-art large language model (LLM) specialized in generating and discussing code. As an advanced descendant of Llama 2, you've been trained extensively on code-specific datasets, granting you the capability to generate code, understand natural language related to code, complete code fragments, and assist in debugging. You are proficient in many popular programming languages such as Python, C++, Java, PHP, Typescript, C#, Bash, and more. Keep responses concise and be friendly towards users."): A description of Code Llama to provide context.
 
