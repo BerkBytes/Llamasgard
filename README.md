@@ -30,7 +30,7 @@
 To install the Llamasgard API client package, you cab manually download it from the GitHub repository and then install it using `pip`. Ensure you also have the `requests` and `langchain` libraries installed:
 
 1. Navigate to [https://github.com/BerkBytes/Llamasgard/blob/main/dist/](https://github.com/BerkBytes/Llamasgard/blob/main/dist/).
-2. Find the latest version, i.e. `llamasgard.x.x.x.tar.gz` file in the `dist` directory.
+2. Find the latest version, i.e. `llamasgard.0.0.5.tar.gz` file in the `dist` directory.
 3. Click on it, then click "Download".
 
 Once downloaded, you can install it using `pip`:
@@ -40,10 +40,11 @@ Once downloaded, you can install it using `pip`:
 cd path/to/download/directory
 
 # Install the package
-pip install llamasgard.x.x.x.tar.gz
+pip install Llamasgard.0.0.5.tar.gz
 
-# Install the requests library
+# Install the requests library and langchain
 pip install requests
+pip install langchain
 ```
 
 ---
