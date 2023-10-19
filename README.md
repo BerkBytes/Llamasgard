@@ -30,7 +30,7 @@
 To install the Llamasgard API client package, you cab manually download it from the GitHub repository and then install it using `pip`. Ensure you also have the `requests` library installed:
 
 1. Navigate to [https://github.com/BerkBytes/Llamasgard/blob/main/dist/](https://github.com/BerkBytes/Llamasgard/blob/main/dist/).
-2. Find the latest version, i.e. `Llamasgard-x.x.x.tar.gz` file in the `dist` directory.
+2. Find the latest version, i.e. `llamasgard.x.x.x.tar.gz` file in the `dist` directory.
 3. Click on it, then click "Download".
 
 Once downloaded, you can install it using `pip`:
@@ -50,7 +50,7 @@ pip install requests
 
 ## <a name="api-tunneling"></a>3. API Tunneling and Connection
 
-### Connecting via Terminal
+### SSH Tunneling
 
 SSH (Secure Shell) tunneling is a method of transporting arbitrary networking data over an encrypted SSH connection. It can be used to add encryption to legacy applications, to provide secure remote access to an intranet resource or to forward otherwise insecure TCP traffic through encrypted channels. 
 
@@ -69,7 +69,7 @@ Breaking down the command:
   - `localhost:8000`: Remote machine address and port number to bind the forwarding.
 - `username@10.19.2.120`: Username and IP address of the remote server.
 
-### Connecting via Python (STILL IN TESTING)
+### Connecting via Python
 
 To establish an SSH tunnel and make requests to the API via Python, you can utilize the `paramiko` and `sshtunnel` libraries. Here's an example demonstrating how to establish an SSH tunnel and connect to the API through Python:
 
