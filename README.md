@@ -133,7 +133,8 @@ Example:
 from Llamasgard import CodeLlama
 
 user_prompt = "Write a Python function to calculate factorial."
-response = CodeLlama(user=user_prompt)
+llm=CodeLlama()
+response = llm(user=user_prompt)
 print(response)
 ```
 
